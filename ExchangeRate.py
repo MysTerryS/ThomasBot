@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = '8e39ca413c0782a629865115'
+API_KEY = ''                                # YOUR API_KEY FROM EXCHANGERATE-API
 url = 'https://v6.exchangerate-api.com/v6/{}/pair/{}/{}'
 
 rates = [
