@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime, timedelta
 
-API_KEY = "6ba2a85b95064fbe8cb8b95c0331e762"
+API_KEY = ""                                # YOUR API_KEY FROM NEWSAPI.ORG
 url = "https://newsapi.org/v2/everything?q={}&apikey={}&language=ru&from={}-{}-{}&to={}-{}-{}"
 
 def GetNews(topic):
